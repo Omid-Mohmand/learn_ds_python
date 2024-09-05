@@ -1,5 +1,7 @@
-from LinkedList import LinkedList
+from LinkedListClass import My_LinkedList
 
 
-nums  = LinkedList(12)
+my_list  = My_LinkedList(20)
+
+print(my_list.head.value)
 
